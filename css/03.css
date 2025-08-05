@@ -1,0 +1,56 @@
+body {
+    /* font-family : 글꼴을 지정하는 속성 */
+  /* font-family: "Black Han Sans", sans-serif; */
+  font-family: '맑은 고딕', '바탕';
+  /* font-weight : 글자의 굵기를 지정하는 속성 (100 ~ 900) */
+  font-weight: 400;
+  font-style: normal;
+
+  /* font-size : 글자의 크기를 지정하는 속성 */
+  /* px : 픽셀 단위로 폰트 크기를 조절 */
+  /* em : 부모요소 기준으로 글자 크리를 배율로 조절*/
+  /* rem : 최상위 요소(html)를 기준으로 글자 크기를 배율로 조절, 1rem = 16px*/
+  font-size: 14px;
+}
+
+p {
+    front-size: 1.2em;
+    color: rgba(241, 124, 28, 0.8); 
+    /* 0.8은 투명도이다. */
+
+    /* text-decoration : 선으로 텍스트를 꾸미는 속성 */
+    /* text-decoration: none; 이 기본입니다.*/
+    text-decoration: line-through;
+    /* 취소선 line-through */
+
+    /* text-align : 텍스트의 정렬방향 설정 */
+    text-align: left;
+
+/* span과 p의 차이. span은 인라인 레벨요소 / p는 블럭레벨요소. 
+span은 글 그대로 박스고 (작은 네모) p는 글자 밖에서부터 적용되는 박스! (가로가 꽉차는 네모) */
+}
+
+
+.box-line-height {
+    background-color: rgb(228, 197, 156);
+    height: 100px;
+    line-height: 16px; 
+    /* line-height : 줄간격 조절 */
+    letter-spacing: 5px;
+    /* letter-spacing : 자간 조절 */
+    word-spacing: 20px;
+    /* word-spacing : 단어 간의 간격 조절 */
+}
+
+.class-text-transform {
+    text-transform: capitalize;
+    /* text-transform : 대소문자 변환 */
+    /* uppercase : 모두 대문자로 변환 */
+    /* lowercase : 모두 소문자로 변환 */
+    /* capitalize : 각 단어의 첫 글자를 대문자로 변환 */
+
+    /* text-shadow : 글자의 그림자 효과를 부여 */
+    /* 가로위치, 세로위치, 그림자 크기, 색상 */
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+

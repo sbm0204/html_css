@@ -1,0 +1,17 @@
+h1 {
+    color: brown;
+}
+
+h1 {
+    color: beige;
+}
+
+#id-h1 {
+    color: blue;
+}
+
+.class-h1 {
+    color: green;
+}
+
+/* 주로 **클래스 스타일** **타입 스타일**으로 진행한다. */
