@@ -1,0 +1,18 @@
+* {
+    color: rgb(0, 0, 0);
+}
+
+.design-trends {
+    list-style-type: none;
+    list-style-position: inside;
+}
+
+.highlight {
+    color: #ad3000; 
+    font-size: 1.5em;
+    font-weight: bold;
+    line-height: 2rem;
+    }
+body {
+  font-size: 0.8rem;
+}

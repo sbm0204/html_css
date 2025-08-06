@@ -1,0 +1,62 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box; /* padding과 border를 포함한 너비 계산 */
+}
+
+body {
+    border: 10px dotted #000;
+}
+
+.div {
+    border: 1px solid #961111;
+}
+
+.div-box, h1 {
+    width: 100px;
+    border: 10px dotted #000;
+}
+
+/* 뒤에 정의된 게 먼저 적용된다. 예를 들어 div-box, h1 */
+
+span {
+    width: 100vw; /* 뷰, 보이는 영역 너비의 100% */
+    display: inline-block;
+    height: 50vh;
+    padding: 5px;
+    box-sizing: border-box; /* padding과 border를 포함한 너비 계산 
+    
+    / padding와 margine 다 합해서 100으로 만들어버리깃 */   
+
+}
+
+/* inline-block 기본으로는 인라인 속성을 가지면서 
+block level의 기능- 크기를 설정 할 수 있다.  */
+
+/* vw, vh (뷰포트기준 단위)
+: 뷰의 크기에 따라 비율로 설정 단위
+% : 부모요소의 크기에 따라 비율로 설정되는 단위 */
+
+.div-parent {
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+.div-child {
+    border: 1px solid #2bb82b;
+    width: 100%;
+    min-width: 400px;
+}   
+
+/* auto를 이용해서 가운데 정렬처럼 보이게 할 수 있다.  */
+
+.div-margin {
+    margin: 20px;
+    background-color: #2193df;
+    /* 
+    수평거리, 수직거리, 흐림정도, 번짐정도, 색상, 그림자 방향 설정 
+     */
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2) inset;
+}
