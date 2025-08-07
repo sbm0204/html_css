@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+    margin: 5px;
+    padding: 5px;
+    width: 900px;
+}
+
+.firstbox {
+    background-color: #000;
+    margin-bottom: 15px;
+    display: inline-block;
+    height: 220px;
+}
+
+.title {
+    font-size: 40px;
+    color: rgb(255, 255, 255); 
+    margin:15px;
+    padding: 0;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.explanation {
+    font-size: 20px;
+    color: #ce812a;
+    margin:15px;
+    padding: 0;
+}
+
+/* DONE */
+
+.seconbox {
+    background-color: #000;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.warning {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin: 0;
+    padding: 1px;    
+}
+
+/* DONE */
+
+.thirdbox {
+    border: 1px solid #9c9c9c;
+    background-color: #ffffff;
+    text-align: center;
+    color: #000000;
+    font-weight: bold;
+    line-height: 45px; 
+    font-size: 25px;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: inline-block;
+    box-sizing: border-box;
+    height: 370px;
+}
+
+.title1 {
+    font-size: 20px;
+    color: #ff0000;
+    font-weight: bold;
+    margin: 10px 0;
+    text-align: center;
+    font-size: 25px;
+}
+
+.hightlight {
+    color: #240cff;
+    font-weight: bold;
+    text-align: center;
+}
+
+.body {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.8); 
+    text-align: left;
+    margin: 1px;
+    text-align: center;
+}
+
+/* DONE */
+
+.forthbox {
+    border: 1px solid #9c9c9c;
+    background-color: #ffffff;
+    text-align: center;
+    color: #000000;
+    font-weight: bold;
+    line-height: 45px;
+    font-size: 25px;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: inline-block;
+    box-sizing: border-box;
+    height: 200px;
+}
+
+.businesshour {
+    color: #000000;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+}

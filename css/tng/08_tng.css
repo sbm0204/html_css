@@ -1,0 +1,31 @@
+div {
+    padding: 40px;
+    border: 1px solid #000000;
+    height:100px;
+    width: 100px;
+}
+
+.main {    
+    height:600px;
+    width: 600px;
+}
+
+
+.div-static {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+}
+
+.div-relative {
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    left: 300px;
+}
+
+.div-absolute {
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    /* 나의 상위요소 중 relative가 지정된 요소를 기준으로 움직임*/
+    /* 상위 요소 중에 relative가 없다면 body 가 기준이 된다. */
+    top: 400px;
+}

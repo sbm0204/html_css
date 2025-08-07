@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    width: 900px;
+}
+
+.contrainer {
+    width: 600px;
+    margin: auto;
+}
+
+/* 여기서부터는 HEAD 이다 */
+
+header {
+    background-color: #000000;
+    padding: 10px;
+}
+
+h1 {
+    color: white;
+    margin-bottom: 60px;
+}
+
+.header-information {
+    color: tomato;
+}
+
+/* 여기서부터는 MAIN 이다 */
+
+.main {
+}
+
+.main-title {
+    background-color: #000000;
+    padding: 10px;
+    color: white;
+    margin-top: 10px;
+}
+
+.main-box-base {
+    border: 1px solid #8f8f8f;
+    border-top: none;
+    text-align: center;
+    padding: 20px;
+}
+
+.main-contents {
+}
+
+.main-counsel {
+}
+
+.main-sub-title {
+    color: red;
+    margin-bottom: 20px;
+}
+    
+
+.main-word-hightlight {
+    color: #0011ff;      /* 원하는 색상 */
+}
+
+.main-contrents-big-bold {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.main-contrents-margin-bottom {
+    margin-bottom: 20px;
+}

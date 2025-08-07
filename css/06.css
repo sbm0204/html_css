@@ -54,9 +54,13 @@ block level의 기능- 크기를 설정 할 수 있다.  */
 
 .div-margin {
     margin: 20px;
+    border: 1px solid #000;
     background-color: #2193df;
     /* 
     수평거리, 수직거리, 흐림정도, 번짐정도, 색상, 그림자 방향 설정 
      */
-    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2) inset;
+    box-shadow: 10px 10px 10px rgba(105, 253, 7, 0.2);
 }
+
+/* inset - 안으로 그림자 넣기 */
+/* 마진 중첩 현상 확인! */
