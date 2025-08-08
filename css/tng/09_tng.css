@@ -10,7 +10,7 @@ body {
 
 ul {
     list-style-type: none;
-    margin: 50px;
+    margin: 20px;
 }
 
 .container {
@@ -39,8 +39,4 @@ ul {
 
 .contents-title {
     color: red;
-}
-
-.bg-img {
-    float: right;
 }
