@@ -1,0 +1,52 @@
+body {
+    background-image: url('../img/cat-3059075_1920.jpg');
+    background-attachment: fixed;
+    /* fixed를 함으로써 스크롤이 생길경우 요소의 배경 이미지를 고정 */
+}
+
+.background-test1 {
+    background-color: #8a4309;
+    border: 3px dotted #000;
+    background-clip: content-box;
+    /* clip 지정하면 박스 사이즈가 콘텐츠만인지 
+    you can choose the size of the box coloured depends on what you choose 
+    like padding-box, border-box and contenct-box  */
+    padding: 10px;
+}
+
+.div-bg-image {
+    width: 1000px;
+    height: 1000px;
+    border: 3px solid #b3ff00;
+    /* 배경을 이미지로 지정 */
+    background-image: url('../img/윤옘;ㄴ.jpg'), url('../img/linux.png');
+    /* 배경 이미지의 크기 조절 */
+    background-size: 200px;
+    /* contain와 cover*/
+    /* The background image will 
+    cover the entire element, 
+    cropping the image if necessary to fill the box. */
+    /* The background image will 
+    fit entirely inside the element, 
+    showing the whole image. */
+    background-repeat: no-repeat;
+    /* repeat-x 가로로만 나열 
+    repeat-y 세로로만 나열
+    space 빈 공간 만들기
+    round 빈 공간 없이 꽉차게
+    no-repeat 반복하지마*/
+    background-position: center;
+    /* 배경 이미지 위치 지정 */
+    opacity: 0.5;
+}
+
+.div-gradation {
+    width: 500px;
+    height: 500px;
+    /* 선형 그라데이션 */
+    /* background: linear-gradient
+    (45deg, #000, #fff 20%, #e101ff); */
+    /* 원형 그라데이션 */
+    background: radial-gradient(
+        circle at 0% 50%, #ff002b, #fff, #d67575 20%, #d0ff00);
+}

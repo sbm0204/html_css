@@ -1,0 +1,63 @@
+.main {
+    background-color: #ffffff;
+    border: 1px solid black;
+    border-style: dotted;
+    width: 500px;
+    height: 500px;
+    position: relative; /* 자식 요소의 절대 위치 지정 가능 */
+}
+
+.div-image {
+    background-image: url('../../img/cat-3059075_1920.jpg');
+    height: 120px;
+    width: 300px;
+    position: absolute; /* 절대 위치 지정 */
+    right: 0;
+    bottom: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.header {
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.title {
+    background-color: #023d30;
+    line-height: 50px;
+    padding: 15px;
+    margin: 10px;
+    font-size: 30px;
+    font-weight: bold;}
+
+.title1 {
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+
+.positions {
+    background-color: #ffffff;
+}
+
+.sub-header {
+
+
+    
+    color: red;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+.body {
+    list-style: none;
+    padding-left: 50px;
+
+}

@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000000;    
+}
+
+ul {
+    list-style-type: none;
+    margin: 50px;
+}
+
+.container {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    width: 800px;
+    margin : 0 auto;
+    background-image: url(../../img/cat-3059075_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position: bottom right;
+}
+
+.header-title {
+    padding: 20px;
+    background-color: #022b24;
+    color: white;
+    text-align: center;
+}
+
+.sub-title {
+    text-align: center;
+    margin: 20px 0;
+    font-style: italic;
+}
+
+.contents-title {
+    color: red;
+}
+
+.bg-img {
+    float: right;
+}
