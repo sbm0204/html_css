@@ -1,0 +1,106 @@
+.background-cover {
+    background-image: url('../../img/cat-1044750_1280.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 350px;
+    height: 320px;
+    border: 2px solid rgb(90, 90, 90);
+    color: white;
+}
+
+/* 백그라운드에 opacity 넣고 싶을 때 */
+
+/* .backgourn-cover {
+    position: relative;
+    } */
+
+/* .background-cover::after {
+    background-image: url('../../img/cat-1044750_1280.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.5;
+    position: absolute;
+    top:0 ;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content "";
+    z-index: -1;
+} */
+
+.title {
+    color: rgb(247, 160, 0);
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.required-sign::before {
+    content: '*';
+    color: red;
+}
+
+.input-box {
+    margin-bottom: 10px;
+}
+
+/* 요소의 베이스 라인을 강제적으로 TOP으로 옮긴다. */
+label {
+    vertical-align: top;
+}
+
+input, textarea {
+    background-color: transparent;
+}
+
+.focus-border:focus {
+    border: 3px solid red;
+    outline: none;
+}
+
+/* ID 선택자 : 태그의 ID로 선택 */
+/* #account:focus {
+  outline: 3px solid red;
+} */
+
+.chk-color:checked + label {
+    color: red;
+}
+
+.txt-request-memo {
+    width: 200px;
+    height: 70px;
+}
+
+.submit-btn {
+    position: relative;
+}
+
+.submit-btn:hover::after {
+  content: "내용을 다시 한 번 확인해주세요.";
+  position: absolute;
+  width: 270px;
+  font-size: 20px;
+  top: 0; /* 버튼과 같은 높이 */
+  left: 60px; /* 버튼 바로 오른쪽 */
+  /* bottom: ; */
+  /* left: 0; 삭제 */
+  background: black;
+  color: white;
+  padding: 2px;
+}
+
+input[type="radio"]:checked + label {
+  color: red;
+}
+
+#text:focus {
+  outline: 3px solid red;
+}
+
+#age:focus {
+  outline: 3px solid red;
+}
+
+
+

@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>11_tng</title>
+    <link rel="stylesheet" href="./11_tng.css">
+</head>
+<body>
+    <!-- 1.기본 -->
+    <form>
+        <fieldset class="background-cover">
+        <legend class="title">
+            I want YOU!
+        </legend>
+        <div class="input-box">
+            <label for="account" class="required-sign">이름
+            </label>
+            <input class="focus-border" type="text" name="account" id="account" required>
+            </div>
+            <br>
+        <div class="input-box">
+            <label for="age" class="required-sign">나이
+            </label>
+            <input class="focus-border" type="number" name="age" id="age">
+        </div>
+        <br>
+        <div class="input-box">
+            <span class="required-sign">성별</span>
+                <input type="radio" name="sex" id="female">
+                <label for="female">여자</label>
+                <input type="radio" name="sex" id="male">
+                <label for="male">남자</label>
+        </div>
+        <br>
+        <div class="input-box">
+            <label for="requestMemo">요청사항</label>
+            <textarea type="txt-request-memo" name="requestMemo" id="requestMemo" placeholder="요청 사항 입력">
+            </textarea>
+        </div>
+            <br>
+        <button type="submit">보내기</button>
+        </fieldset>
+    </form>
+    <!-- 2.이름 입력란 focus시 외곽선 3px 빨간색
+     이름 필수 항목 설정 -->
+    <form>
+        <fieldset class="background-cover">
+        <legend class="title">
+            I want YOU!
+        </legend>
+        <label for="account" class="required-sign">이름</label>
+        <input class="focus-border" type="text" name="account" id="account" required>
+        <br><br>
+        <label for="age" class="required-sign">나이</label>
+        <input class="focus-border" type="number" name="age" id="age" min="20">
+        <br><br>
+        <div class="input-box">
+            <span class="required-sign">성별</span>
+                <input type="radio" class="chk-color" name="sex" id="female" required>
+                <label for="female">여자</label>
+                <input type="radio" class="chk-color" name="sex" id="male">
+                <label for="male">남자</label>
+        </div>
+        <br>
+        <div class="styleoflabel">
+        <label for="text">요청사항</label>
+        <textarea class="txt-request-memo focus-border" type="text" name="text" id="text" required placeholder="요청 사항 입력"></textarea></div>
+        <button type="submit" class="submit-btn">보내기</button>
+        </fieldset>
+    </form>
+    <!-- 3.나이 입력란 focus시 외곽선 3px 빨간색
+     나이는 숫자만 입력가능 (최소치20)
+     나이 필수 항목 설정 -->
+    <form>
+        <fieldset class="background-cover">
+        <legend class="title">
+            I want YOU!
+        </legend>
+        <label for="account" class="required-sign">이름</label>
+        <input type="text" name="account" id="account">
+        <br><br>
+        <label for="age" class="required-sign">나이</label>
+        <input type="number" name="age" id="age" min="20" required>
+        <br><br>
+        <div class="radio-group">
+            <span class="required-sign">성별</span>
+                <input type="radio" name="sex" id="female">
+                <label for="female">여자</label>
+                <input type="radio" name="sex" id="male">
+                <label for="male">남자</label>
+        </div>
+        <br>
+        <div class="styleoflabel">
+        <label for="text">요청사항</label>
+        <textarea type="text" name="text" id="text" required placeholder="요청 사항 입력"></textarea></div>
+        <br>
+        <button type="submit">보내기</button>
+        </fieldset>
+    </form>
+    <!-- 4.성별 체크시 해당 항목 빨간색
+     성별 필수 항목 설정 -->
+    <form>
+        <fieldset class="background-cover">
+        <legend class="title">
+            I want YOU!
+        </legend>
+        <label for="account" class="required-sign">이름</label>
+        <input type="text" name="account" id="account">
+        <br><br>
+        <label for="age" class="required-sign">나이</label>
+        <input type="number" name="age" id="age">
+        <br><br>
+        <div class="radio-group">
+            <span class="required-sign">성별</span>
+                <input type="radio" name="sex" id="female">
+                <label for="female">여자</label>
+                <input type="radio" name="sex" id="male">
+                <label for="male">남자</label>
+        </div>
+        <br>
+        <div class="styleoflabel">
+        <label for="text">요청사항</label>
+        <textarea type="text" name="text" id="text" required placeholder="요청 사항 입력"></textarea></div>
+        <br>
+        <button type="submit">보내기</button>
+        </fieldset>
+    </form>
+    <!-- 5.요청사항 focus시 외곽선 3px 빨간색
+     placeholder"요청 사항 입력"으로 설정 -->
+    <form>
+        <fieldset class="background-cover">
+        <legend class="title">
+            I want YOU!
+        </legend>
+        <label for="account" class="required-sign">이름</label>
+        <input type="text" name="account" id="account">
+        <br><br>
+        <label for="age" class="required-sign">나이</label>
+        <input type="number" name="age" id="age">
+        <br><br>
+        <div class="radio-group">
+            <span class="required-sign">성별</span>
+                <input type="radio" name="sex" id="female">
+                <label for="female">여자</label>
+                <input type="radio" name="sex" id="male">
+                <label for="male">남자</label>
+        </div>
+        <br>
+        <div class="styleoflabel">
+        <label for="text">요청사항</label>
+        <textarea type="text" name="text" id="text" required placeholder="요청 사항 입력"></textarea></div>
+        <br>
+        <button type="submit">보내기</button>
+        </fieldset>
+    </form>
+    <!-- 6.보내기 버튼 마우스 hover시 위 사진의 내용 출력 -->
+    <form>
+        <fieldset class="background-cover">
+        <legend class="title">
+            I want YOU!
+        </legend>
+        <label for="account" class="required-sign">이름</label>
+        <input type="text" name="account" id="account" required>
+        <br><br>
+        <label for="age" class="required-sign">나이</label>
+        <input type="number" name="age" id="age" min="19" max="120" required>
+        <br><br>
+        <div class="radio-group">
+            <span class="required-sign">성별</span>
+                <input type="radio" name="sex" id="female">
+                <label for="female">여자</label>
+                <input type="radio" name="sex" id="male">
+                <label for="male">남자</label>
+        </div>
+        <br>
+        <div class="styleoflabel">
+        <label for="text">요청사항</label>
+        <textarea type="text" name="text" id="text" required placeholder="요청 사항 입력"></textarea></div>
+        <br>
+        <button type="submit" class="submit-btn">보내기</button>
+        </fieldset>
+    </form>
+</body>
+</html>
+<!-- 6개 준비하세용 -->
