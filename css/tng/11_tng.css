@@ -35,28 +35,36 @@
     font-size: 2rem;
 }
 
-.required-sign::before {
-    content: '*';
-    color: red;
-}
-
 .input-box {
     margin-bottom: 10px;
 }
 
-/* 요소의 베이스 라인을 강제적으로 TOP으로 옮긴다. */
-label {
-    vertical-align: top;
-}
-
-input, textarea {
-    background-color: transparent;
+.required-sign::before {
+    content: '*';
+    color: red;
 }
 
 .focus-border:focus {
     border: 3px solid red;
     outline: none;
 }
+
+
+/* 요소의 베이스 라인을 강제적으로 TOP으로 옮긴다. */
+label {
+    vertical-align: top;
+}
+
+/* 혹은 
+#requestMemo {
+    vertical-align: top;
+} */
+
+input, textarea {
+    background-color: transparent;
+}
+
+
 
 /* ID 선택자 : 태그의 ID로 선택 */
 /* #account:focus {
