@@ -1,0 +1,20 @@
+div {
+  width: 200px;
+  height: 200px;
+  background-color: pink;
+}
+
+/* 모든 스타일보다 가장 아래에 있기 때문에 가장 우선순위이다. */
+@media (max-width: 500px) {
+  div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 800px) {
+  div {
+    background-color: blue;
+  }
+}
