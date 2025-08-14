@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+.archivo-black-regular {
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    height: 100vh;
+    min-width: 0;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(1fr, 1fr));
+    background-image: url(../YouThirsty/img/img_1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-width: 0px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 1px 20px;
+    flex-wrap: wrap;
+    min-width: 0px;
+}
+
+
+h1 {
+    margin: 100px 20px;
+    text-align: left;
+    color: white;
+    font-size: 3rem;
+    min-width: 0
+}
+
+h3 {
+    color: white;
+    text-align: left;
+    margin: 50px 1px; 
+    min-width: 0
+}
+
+.header-content-box-h1 {
+    height: auto;
+    width: 350px;
+}
+
+.header-content-box-h3 {
+    height: auto;
+    width: 600px;
+}
+
+.btn-move-down {
+    color: white;
+    background-color: rgb(179, 152, 0);
+    /* TODO: 왜 Browse Breweries 색이 불투명할까? */
+    border: 1px solid transparent ;
+    margin-top: 30px;
+    padding: 20px 30px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.btn-move-down:hover {
+    transition: all 1.2s;
+    background-color: rgba(211, 194, 100, 0.836);
+}
+
+.main {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20px, 1fr))
+    /* 빈 cell을 채워가기 때문에 auto-fill */
+}
+
+/* .main-content {
+    display: flex;
+    padding: 5px 1rem;
+    justify-content: left;
+    gap: 10px;
+    flex-wrap: wrap;
+} */
+
+.main-content {
+    padding: 5px 1rem;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    /* 빈 cell을 채워가기 때문에 auto-fill */
+}
+
+.card {    
+    background-color: white;
+    border: 1px solid lightgrey;
+    border-radius: 15px;
+    padding: 1rem;
+    margin: 5px;
+    /* width: 350px; */
+    height: 500px;
+}
+
+.card-img {    
+    padding-top: 70%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h4 {
+    padding: 20px 15px;
+    background-color: rgba(0, 0, 0, 0.521);
+    color: white;
+}
+
+h5 {
+    padding: 20px 0px;
+}
+
+.btn-move-top {
+    color: white;
+    background-color: rgba(179, 152, 0, 0.836);
+    border: 1px solid transparent ;
+    margin: 15px 5px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-size: 100vh;
+    width: 100%;
+    padding: 20px 0px;
+}
+
+.card > div {
+    display: flex;
+    flex-direction: column; /* 자식 요소들을 위에서 아래로 쌓습니다. */
+}
+
+.card > div > a {
+    display: inline-block;
+    width: 100%;
+}
+
+.btn-move-top:hover {
+    transition: all 1.2s;
+    background-color: rgba(211, 194, 100, 0.836);
+}
+

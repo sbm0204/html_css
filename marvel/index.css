@@ -22,6 +22,8 @@ ul, li {
 
 /* 커다란 레이아웃은 grid로 ㄱ */
 
+/* --------------BODY--------------- */
+
 .container {
     display: grid;
     grid-template-columns: 200px 1fr;
@@ -92,6 +94,8 @@ h1 {
 .menu-dropbox {
     display: none;
 }
+
+/* ul li 있는 버전 */
 
 .menu-dropbox > li {
     padding: 0.2rem 1rem;
