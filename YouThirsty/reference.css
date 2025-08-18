@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* 원래 content 기준인데 그러면 길이와 넓이가 이후에 추가되면 뒤죽박죽이 되어버린다. border까지 합해서 border를 기준으로 width를 설정 할 수 있도록 해준다 */
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* common */
+button {
+    background-color: goldenrod;
+    border: none;
+    padding: 15px;
+    font-size: 1.5rem;
+    color: white;
+    border-radius: 5px;
+}
+
+button:hover {
+    cursor: pointer;
+    opacity: 0.5;
+    transition: all 1.5s;
+}
+
+/* header */
+header {
+    background-image: url(../YouThirsty/img/img_1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-width: 0px;
+    color: white;
+    padding: 30px;
+    /* 자식요소의 마진을 하는 것보다 부모 패딩 영역을 수정하는 것이 좋다 */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+    /* 나는 아예 배경의 height을 지정했는데 여기서도 min으로 해서 배경의 height을 지정할 수 있다. */
+}
+
+header > h1 {
+    font-size: 4rem;
+    margin: 80px 0;
+}
+
+.header-info > p {
+    margin: 30px 0;
+    font-size: 1.5rem;
+
+}
+
+/* main */
+main {
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin-bottom: 70px;
+    /* fixed 된 footer가 젤 마지막 card를 가리고 있어서 이런식으로 따로 설정해준다.*/
+}
+
+.card {
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.card-img {
+    padding-top: 70%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-img-title {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.466);
+    font-size: 900;
+    padding: 15px;
+}
+
+.card > a > button {
+    width: 100%;
+}
+
+/* footer */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: darkslategray;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
